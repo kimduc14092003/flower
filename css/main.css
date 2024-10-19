@@ -1337,4 +1337,41 @@ body {
 }
 #countdown{
   font-size: 120px;
+  display: none;
+}
+#buttonClick2{
+  padding: 12px;
+}
+/* Button 11 */
+.btn-11 {
+  color: #01A31B;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-11::after {
+  font-family: "Material Icons";
+  content: '\e5e1';
+  font-size: 22px;
+}
+.flex-vh-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn-3 {
+  color: #fff;
+  padding: 18px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 30px;
+  background: #5271a4;
 }
