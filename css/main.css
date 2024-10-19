@@ -1319,3 +1319,22 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+ /* CSS cho pop-up */
+ #countdownPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Di chuyển pop-up vào giữa */
+  background-color: rgba(0, 0, 0, 0.8); /* Màu nền đen trong suốt */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  z-index: 1000; /* Đảm bảo nằm trên cùng */
+  display: none;
+  border-radius: 10px; /* Bo góc nhẹ */
+}
+#countdown{
+  font-size: 120px;
+}
